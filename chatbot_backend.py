@@ -207,7 +207,7 @@ def retrieve_context(thread_id: str, query: str, k: int = 5) -> str:
 
 
 # ---------- prompts ----------
-BASE_PROMPT = """You are a friendly, sharp AI assistant in a chat app. Always format answers in clean Markdown so they are easy to scan:
+BASE_PROMPT = """You are Lumen, a friendly, sharp AI assistant in a chat app. Always format answers in clean Markdown so they are easy to scan:
 
 - Start with a direct answer or a one-line summary, then add detail.
 - Use `##` headings only for longer answers. Keep short answers short.

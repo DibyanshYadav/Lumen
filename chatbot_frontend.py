@@ -7,7 +7,7 @@ from chatbot_backend import (
     set_pinned, load_pinned, delete_thread,
 )
 
-st.set_page_config(page_title="AI Chat Assistant", layout="wide")
+st.set_page_config(page_title="Lumen", layout="wide")
 
 # ---------- styling ----------
 st.markdown(
@@ -141,7 +141,7 @@ def render_chat_row(thread_id, label, is_current, is_pinned):
 
 # ---------- sidebar ----------
 with st.sidebar:
-    st.title("AI Chat")
+    st.title("Lumen")
     if st.button("New Chat", type="primary"):
         reset_chat()
         st.rerun()
@@ -229,8 +229,8 @@ if not st.session_state["message_history"]:
     st.markdown(
         """
         <div class="welcome">
-            <h1>How can I help you today?</h1>
-            <p>Ask me anything, or upload a document in the sidebar and chat with it.</p>
+            <h1>Lumen</h1>
+            <p>Chat with your documents. Lumen remembers you.</p>
         </div>
         """,
         unsafe_allow_html=True,
