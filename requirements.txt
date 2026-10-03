@@ -1,0 +1,16 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+streamlit>=1.37
+python-dotenv
+pydantic
+langchain-core
+langchain-groq
+langchain-community
+langchain-text-splitters
+langchain-huggingface
+sentence-transformers
+langgraph
+langgraph-checkpoint-sqlite
+faiss-cpu
+pypdf
+docx2txt
