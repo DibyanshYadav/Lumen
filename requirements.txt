@@ -1,8 +1,13 @@
 --extra-index-url https://download.pytorch.org/whl/cpu
 torch
-streamlit>=1.37
+streamlit>=1.40
 python-dotenv
 pydantic
+pillow
+requests
+beautifulsoup4
+ddgs
+rank_bm25
 langchain-core
 langchain-groq
 langchain-community
