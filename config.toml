@@ -1,0 +1,6 @@
+[server]
+maxUploadSize = 25
+fileWatcherType = "none"
+
+[theme]
+primaryColor = "#4F8BF9"
